@@ -1,6 +1,6 @@
 # MPD
 
-MPD stand for Music Player Daemon. It is a cli and background running process 
+MPD stand for Music Player Daemon. It's a flexible, powerful, server-side application for playing music. Through plugins and libraries it can play a variety of sound files while being controlled by its network protocol.
 
 ## Installation
 

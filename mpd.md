@@ -15,13 +15,13 @@ MPD requires a config file
 This is how a minimum configuration file `mpd.conf` may look like:
 
 ```conf
-music_directory "c:/music"
+music_directory		"c:/music"
 playlist_directory  "c:/mpd/playlists"
-db_file "c:/mpd/database"
-log_file    "syslog"
+db_file				"c:/mpd/database"
+log_file			"syslog"
 
 input {
-    plugin "curl"
+	plugin "curl"
 }
 
 audio_output {

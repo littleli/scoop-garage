@@ -1,0 +1,14 @@
+﻿{
+    "version":  "0.21.21",
+    "license":  "GPLv2",
+    "url":  "https://www.musicpd.org/download/win32/0.21.21/mpd.exe",
+    "homepage": "http://www.musicpd.org",
+    "hash":  "60de441dabe626888b66176a105738675c0eba5444bbbb4ae568882bb2ed5e92",
+    "bin":  "mpd.exe",
+    "checkver": {
+        "github": "https://github.com/MusicPlayerDaemon/MPD"
+    },
+    "autoupdate": {
+        "url": "https://www.musicpd.org/download/win32/$version/mpd.exe"
+    }
+}

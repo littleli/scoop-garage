@@ -10,7 +10,7 @@ To get an access to software packages in this bucket run following command:
 scoop bucket add scoop-garage https://github.com/littleli/scoop-garage
 ```
 
-To install selected packages please follow instruction for the package below in the section [Available software](available-software)
+To install selected packages please follow instruction for the package below in the section [Available software](#available-software)
 
 ## Available software
 

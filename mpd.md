@@ -18,15 +18,15 @@ This is how a minimum configuration file `mpd.conf` may look like:
 music_directory	"c:/music"
 playlist_directory "c:/mpd/playlists"
 db_file	"c:/mpd/database"
-log_file	"c:/mpd/log"
+log_file "c:/mpd/log"
 
 input {
 	plugin "curl"
 }
 
 audio_output {
-	type		"winmm"
-	name		"WinMM output"
+	type "winmm"
+	name "WinMM output"
 }
 ```
 

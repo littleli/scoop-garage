@@ -5,13 +5,16 @@
     "license": "Apache-2.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/kordamp/gm/releases/download/v0.3.0/gm_Windows_i386.zip"
+            "url": "https://github.com/kordamp/gm/releases/download/v0.3.0/gm_Windows_i386.zip",
+            "hash": {
+                "url": "$baseurl/checksums.txt"
+            }
         },
         "64bit": {
-            "url": "https://github.com/kordamp/gm/releases/download/v0.3.0/gm_Windows_x86_64.zip"
-        },
-        "hash": {
-            "url": "$baseurl/checksums.txt"
+            "url": "https://github.com/kordamp/gm/releases/download/v0.3.0/gm_Windows_x86_64.zip",
+            "hash": {
+                "url": "$baseurl/checksums.txt"
+            }
         }
     },
     "bin": "gm.exe",

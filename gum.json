@@ -1,0 +1,32 @@
+{
+    "homepage": "https://github.com/kordamp/gm",
+    "description": "Gum is a Gradle/Maven wrapper written in Go",
+    "version": "0.3.0",
+    "license": "Apache-2.0",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/kordamp/gm/releases/download/v0.3.0/gm_Windows_i386.zip"
+        },
+        "64bit": {
+            "url": "https://github.com/kordamp/gm/releases/download/v0.3.0/gm_Windows_x86_64.zip"
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    },
+    "bin": "gm.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/kordamp/gm/releases/download/v$version/gm_Windows_i386.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/kordamp/gm/releases/download/v$version/gm_Windows_x86_64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}

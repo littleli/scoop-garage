@@ -17,5 +17,8 @@
                 "url": "https://github.com/PostgREST/postgrest/releases/download/v$version/postgrest-v$version-windows-x64.zip"
             }
         }
+    },
+    "suggest": {
+        "PostgreSQL": "postgresql"
     }
 }

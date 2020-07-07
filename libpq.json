@@ -1,0 +1,16 @@
+{
+    "homepage": "https://www.postgresql.org/docs/12/libpq.html",
+    "description": "libpq is the C application programmer's interface to PostgreSQL",
+    "version": "12.2",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://anaconda.org/anaconda/libpq/12.2/download/win-6 4/libpq-12.2-h3235a2c_0.tar.bz2",
+            "hash": "efb0a315cf42d4b3a61c3bd72f724389dce61eee0214adecd4b2355619726f43"
+        },
+        "32bit": {
+            "url": "https://anaconda.org/anaconda/libpq/12.2/download/win-32/libpq-12.2-h3235a2c_0.tar.bz2",
+            "hash": "664a84a2be2ceead320db0d7bddcd25dd36bf7d10e8af290a5c6d3c5733cc8a1"
+        }
+    }
+}

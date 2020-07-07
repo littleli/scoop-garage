@@ -8,5 +8,6 @@
             "url": "https://anaconda.org/anaconda/libpq/12.2/download/win-64/libpq-12.2-h3235a2c_0.tar.bz2",
             "hash": "607e17fa34b2cebdad888be72688af7e6ce8771f4530bd8b5c2f13eb20446486"
         }
-    }
+    },
+    "bin": "Library\\bin\\pg_config.exe"
 }

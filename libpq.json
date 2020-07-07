@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://anaconda.org/anaconda/libpq/12.2/download/win-64/libpq-12.2-h3235a2c_0.tar.bz2",
-            "hash": "efb0a315cf42d4b3a61c3bd72f724389dce61eee0214adecd4b2355619726f43"
+            "hash": "607e17fa34b2cebdad888be72688af7e6ce8771f4530bd8b5c2f13eb20446486"
         }
     }
 }

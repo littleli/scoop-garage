@@ -13,7 +13,7 @@
             "hash": "dc378d28ae908c6bc14ea31b2bbce25db4c2d71778af7c7d548903a037472c51"
         }
     },
-    "bin": "so",
+    "bin": "so.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {

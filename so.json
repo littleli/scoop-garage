@@ -1,16 +1,16 @@
 {
     "homepage": "https://github.com/samtay/so",
     "description": "A terminal interface for Stack Overflow",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/samtay/so/releases/download/v0.4.0/so-v0.4.0-i686-pc-windows-gnu.zip",
-            "hash": "931ed65d2428b5c792bbac105d2223884bd589ea955f46e8884ba224259d800f"
+            "url": "https://github.com/samtay/so/releases/download/v0.4.1/so-v0.4.1-i686-pc-windows-gnu.zip",
+            "hash": "a9310c6d120af8c977a9da6c18d43cb5ed8b887f6e40ef91db4f5b93be32eea0"
         },
         "64bit": {
-            "url": "https://github.com/samtay/so/releases/download/v0.4.0/so-v0.4.0-x86_64-pc-windows-gnu.zip",
-            "hash": "dc378d28ae908c6bc14ea31b2bbce25db4c2d71778af7c7d548903a037472c51"
+            "url": "https://github.com/samtay/so/releases/download/v0.4.1/so-v0.4.1-x86_64-pc-windows-gnu.zip",
+            "hash": "562f9f06f133c03f9223516d39bbcced5c9c7878a7735bb5cbad6a7dbd580782"
         }
     },
     "bin": "so.exe",

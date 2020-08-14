@@ -9,7 +9,7 @@
             "hash": "5731d668c7e441fd8cd199ca64b21ee942b2837deaa005c9b30a6c4ae35a14b6",            
             "bin": "WinUAE\\winuae.exe",
             "shortcuts": [
-                "WinUAE\\winuae.exe",
+                "winuae.exe",
                 "WinUAE"
             ]
         },
@@ -18,7 +18,7 @@
             "hash": "10176d8c9179e07369663efa2086a79883c5bc64059bbb9371aef7a578b78d9a",            
             "bin": "WinUAE\\winuae64.exe",
             "shortcuts": [
-                "WinUAE\\winuae64.exe",
+                "winuae64.exe",
                 "WinUAE"
             ]
         }

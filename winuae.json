@@ -10,7 +10,7 @@
             "bin": "WinUAE\\winuae.exe",
             "shortcuts": [
                 [
-                    "winuae.exe",
+                    "WinUAE\\winuae.exe",
                     "WinUAE"    
                 ]
             ]
@@ -21,7 +21,7 @@
             "bin": "WinUAE\\winuae64.exe",
             "shortcuts": [
                 [
-                    "winuae64.exe",
+                    "WinUAE\\winuae64.exe",
                     "WinUAE"    
                 ]
             ]

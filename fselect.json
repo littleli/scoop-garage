@@ -9,7 +9,7 @@
             "hash": "895b41f2b8f592ebbe3ca44bc79d1f52959e2e01ae77974b8232c6b391443c4d"
         }
     },
-    "bin": "fselect",
+    "bin": "fselect.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {

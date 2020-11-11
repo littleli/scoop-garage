@@ -1,12 +1,12 @@
 {
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "Query and update data structures from the command line. Comparable to jq/yq but supports JSON, TOML, YAML and XML with zero runtime dependencies",
     "homepage": "https://github.com/TomWright/dasel",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TomWright/dasel/releases/download/v1.4.0/dasel_windows_amd64.exe",
-            "hash": "d79946c1909194ceb907d66b604352e2b6653e325553121b6f24f0ef5287574b"
+            "url": "https://github.com/TomWright/dasel/releases/download/v1.4.1/dasel_windows_amd64.exe",
+            "hash": "075b71efc79a6e92012d13e267435227a884a83d4206712eb5fefcb8c1ad0d2a"
         }
     },
     "bin": [

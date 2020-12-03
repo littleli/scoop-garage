@@ -1,0 +1,21 @@
+{
+    "version": "1.4.0",
+    "description": "A Hex Editor for Reverse Engineers, Programmers and people that value their eye sight when working at 3 AM",
+    "homepage": "https://github.com/WerWolv/ImHex",
+    "license": "Unlicensed",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/WerWolv/ImHex/releases/download/v1.4.0/ImHex_1.4.0_Windows.zip",
+            "hash": "bcd85ac56fa650c6a296c948df4ff18cb7f4482a12c495b1f54e7804baa6c18e"
+        }
+    },
+    "bin": "ImHex.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/WerWolv/ImHex/releases/download/v$version/ImHex_$version_Windows.zip"
+            }
+        }
+    }
+}

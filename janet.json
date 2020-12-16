@@ -5,21 +5,21 @@
     "version": "1.13.1",
     "architecture": {
         "32bit": {
-            "hash": "627a0dccef7815fdde735caf3ea2eb3e16f2ec26ac3d0cc365cf8ea67589d5e3",
-            "url": "https://github.com/janet-lang/janet/releases/download/v1.13.1/janet-v1.13.1-windows-x86-installer.msi"
+            "hash": "217f5b0e31c39a20ede1e4299063c1ae8013cb8ce102eab2421c9341d7c4a086",
+            "url": "https://github.com/janet-lang/janet/releases/download/v1.13.1/janet-v1.13.1-windows-x86.zip"
         },
         "64bit": {
-            "hash": "ef5d32257594c8ab54aaa52fe8e84bb951a4883bbb6f6848e845759122d33a35",
-            "url": "https://github.com/janet-lang/janet/releases/download/v1.13.1/janet-v1.13.1-windows-x64-installer.msi"
+            "hash": "43f73d4ee403b54610059282843f43e1e46d4ff197318cff0181338c1fd0f2ae",
+            "url": "https://github.com/janet-lang/janet/releases/download/v1.13.1/janet-v1.13.1-windows-x64.zip"
         }
     },
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/janet-lang/janet/releases/download/v$version/janet-v$version-windows-x86-installer.msi"
+                "url": "https://github.com/janet-lang/janet/releases/download/v$version/janet-v1.13.1-windows-x86.zip"
             },
             "64bit": {
-                "url": "https://github.com/janet-lang/janet/releases/download/v$version/janet-v$version-windows-x64-installer.msi"
+                "url": "https://github.com/janet-lang/janet/releases/download/v$version/janet-v1.13.1-windows-x64.zip"
             }
         }
     },

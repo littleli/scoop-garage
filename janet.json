@@ -28,7 +28,7 @@
     },
     "bin": [
         "janet.exe",
-        ["janet.exe", "jpm", "$dir\\jpm"]
+        "jpm.exe"
     ],
     "env_set": {
         "JANET_BINPATH": "$dir",

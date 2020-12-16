@@ -28,18 +28,12 @@
     },
     "bin": [
         "janet.exe",
-        "jpm.exe"
+        ["janet.exe", "jpm", "$dir\\jpm"]
     ],
     "env_set": {
         "JANET_BINPATH": "$dir",
         "JANET_PATH": "$dir",
         "JANET_HEADERPATH": "$dir",
         "JANET_LIBPATH": "$dir"
-    },
-    "installer": {
-        "script": "add_first_in_path \"$dir\" $global"
-    },
-    "uninstaller": {
-        "script": "remove_from_path \"$dir\" $global"
     }
 }

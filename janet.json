@@ -1,25 +1,25 @@
 {
     "homepage": "https://janet-lang.org",
-    "description": "Janet is a functional and imperative programming language. It runs on Windows, Linux, macOS, and many other systems.",
+    "description": "Janet is a lisp-like, embeddable, functional and imperative programming language and bytecode interpreter.",
     "license": "MIT",
     "version": "1.13.1",
     "architecture": {
         "32bit": {
-            "hash": "217f5b0e31c39a20ede1e4299063c1ae8013cb8ce102eab2421c9341d7c4a086",
-            "url": "https://github.com/janet-lang/janet/releases/download/v1.13.1/janet-v1.13.1-windows-x86.zip"
+            "hash": "627a0dccef7815fdde735caf3ea2eb3e16f2ec26ac3d0cc365cf8ea67589d5e3",
+            "url": "https://github.com/janet-lang/janet/releases/download/v1.13.1/janet-v1.13.1-windows-x86-installer.msi"
         },
         "64bit": {
-            "hash": "43f73d4ee403b54610059282843f43e1e46d4ff197318cff0181338c1fd0f2ae",
-            "url": "https://github.com/janet-lang/janet/releases/download/v1.13.1/janet-v1.13.1-windows-x64.zip"
+            "hash": "ef5d32257594c8ab54aaa52fe8e84bb951a4883bbb6f6848e845759122d33a35",
+            "url": "https://github.com/janet-lang/janet/releases/download/v1.13.1/janet-v1.13.1-windows-x64-installer.msi"
         }
     },
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/janet-lang/janet/releases/download/v$version/janet-v1.13.1-windows-x86.zip"
+                "url": "https://github.com/janet-lang/janet/releases/download/v$version/janet-v$version-windows-x86-installer.msi"
             },
             "64bit": {
-                "url": "https://github.com/janet-lang/janet/releases/download/v$version/janet-v1.13.1-windows-x64.zip"
+                "url": "https://github.com/janet-lang/janet/releases/download/v$version/janet-v$version-windows-x64-installer.msi"
             }
         }
     },
@@ -27,13 +27,19 @@
         "github": "https://github.com/janet-lang/janet"
     },
     "bin": [
-        "janet.exe",
-        ["janet.exe", "jpm", "$dir\\jpm"]
+        "Janet\\bin\\janet.exe",
+        ["Janet\\bin\\janet.exe", "jpm", "$dir\\Janet\\bin\\jpm"]
     ],
     "env_set": {
-        "JANET_BINPATH": "$dir",
-        "JANET_PATH": "$dir",
-        "JANET_HEADERPATH": "$dir",
-        "JANET_LIBPATH": "$dir"
+        "JANET_BINPATH": "$dir\\Janet\\bin",
+        "JANET_PATH": "$dir\\Janet\\Library",
+        "JANET_HEADERPATH": "$dir\\Janet\\C",
+        "JANET_LIBPATH": "$dir\\Janet\\C"
+    },
+    "installer": {
+        "script": "add_first_in_path \"$dir\\Janet\\bin\" $global"
+    },
+    "uninstaller": {
+        "script": "remove_from_path \"$dir\\Janet\\bin\" $global"
     }
 }

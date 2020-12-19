@@ -27,19 +27,20 @@
         "github": "https://github.com/janet-lang/janet"
     },
     "bin": [
-        "Janet\\bin\\janet.exe",
-        ["Janet\\bin\\janet.exe", "jpm", "$dir\\Janet\\bin\\jpm"]
+        "bin\\janet.exe",
+        ["bin\\janet.exe", "jpm", "$dir\\bin\\jpm"]
     ],
+    "extract_dir": "Janet",
     "env_set": {
-        "JANET_BINPATH": "$dir\\Janet\\bin",
-        "JANET_PATH": "$dir\\Janet\\Library",
-        "JANET_HEADERPATH": "$dir\\Janet\\C",
-        "JANET_LIBPATH": "$dir\\Janet\\C"
+        "JANET_BINPATH": "$dir\\bin",
+        "JANET_PATH": "$dir\\Library",
+        "JANET_HEADERPATH": "$dir\\C",
+        "JANET_LIBPATH": "$dir\\C"
     },
     "installer": {
-        "script": "add_first_in_path \"$dir\\Janet\\bin\" $global"
+        "script": "add_first_in_path \"$dir\\bin\" $global"
     },
     "uninstaller": {
-        "script": "remove_from_path \"$dir\\Janet\\bin\" $global"
+        "script": "remove_from_path \"$dir\\bin\" $global"
     }
 }

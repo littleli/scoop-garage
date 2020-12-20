@@ -18,12 +18,6 @@
         "bin\\janet.exe",
         "bin\\jpm.bat"
     ],
-    "env_set": {
-        "JANET_BINPATH": "$dir\\bin",
-        "JANET_PATH": "$dir\\Library",
-        "JANET_HEADERPATH": "$dir\\C",
-        "JANET_LIBPATH": "$dir\\C"
-    },
     "checkver": {
         "github": "https://github.com/janet-lang/janet"
     },

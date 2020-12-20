@@ -16,11 +16,7 @@
     "extract_dir": "Janet",
     "bin": [
         "bin\\janet.exe",
-        [
-            "bin\\janet.exe",
-            "jpm",
-            "$dir\\bin\\jpm"
-        ]
+        "bin\\jpm.bat"
     ],
     "env_set": {
         "JANET_BINPATH": "$dir\\bin",

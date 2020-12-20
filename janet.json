@@ -14,10 +14,14 @@
         }
     },
     "extract_dir": "Janet",
-    "post_install": "New-Item -Path $dir\\Library -ItemType Directory -Force",
+    "persist": [
+        ".cache",
+        ".manifests",
+        "pkgs.janet"
+    ],
     "env_set": {
         "JANET_BINPATH": "$dir\\bin",
-        "JANET_PATH": "$dir\\Library",
+        "JANET_PATH": "$persist_dir",
         "JANET_HEADERPATH": "$dir\\C",
         "JANET_LIBPATH": "$dir\\C"
     },
@@ -37,5 +41,8 @@
                 "url": "https://github.com/janet-lang/janet/releases/download/v$version/janet-v$version-windows-x86-installer.msi"
             }
         }
-    }
+    },
+    "notes": [
+        "Depending on use of janet you may need to set some environment variables like JANET_HEADERPATH and JANET_LIBPATH"
+    ]
 }

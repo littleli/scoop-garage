@@ -16,19 +16,17 @@
     "extract_dir": "Janet",
     "bin": [
         "bin\\janet.exe",
-        "bin\\jpm.bat"
+        [
+            "bin\\janet.exe",
+            "jpm",
+            "$dir\\bin\\jpm"
+        ]
     ],
     "env_set": {
         "JANET_BINPATH": "$dir\\bin",
         "JANET_PATH": "$dir\\Library",
         "JANET_HEADERPATH": "$dir\\C",
         "JANET_LIBPATH": "$dir\\C"
-    },
-    "installer": {
-        "script": "add_first_in_path \"$dir\\bin\" $global"
-    },
-    "uninstaller": {
-        "script": "remove_from_path \"$dir\\bin\" $global"
     },
     "checkver": {
         "github": "https://github.com/janet-lang/janet"

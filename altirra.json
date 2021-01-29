@@ -29,7 +29,7 @@
     },
     "checkver": {
         "url": "http://www.virtualdub.org/altirra.html",
-        "regex": "Version ([\\d.]+)"
+        "regex": "Version ([\\d.]+): \\["
     },
     "autoupdate": {
         "url": "http://www.virtualdub.org/downloads/Altirra-$version.zip"

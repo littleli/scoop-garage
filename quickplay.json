@@ -8,8 +8,8 @@
     "extract_dir": "qp",
     "bin": "QP.exe",
     "checkver": {
-        "url": "https://sourceforge.net/projects/quickplay/rss",
-        "regex": "QP-v([\\d.]+)-"
+        "url": "http://quickplay.sourceforge.net/index.php?title=news_show",
+        "regex": "QuickPlay ([\\d.]+) is released"
     },
     "autoupdate": {
         "url": "https://downloads.sourceforge.net/project/quickplay/quickplay/QuickPlay%20$version/QP-v$version.zip"

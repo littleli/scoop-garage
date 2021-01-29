@@ -18,6 +18,7 @@
         "regex": "Atari800 v([\\d.]+) released"
     },
     "autoupdate": {
-        "url": "https://github.com/atari800/atari800/releases/download/ATARI800_$underscoreVersion/atari800-$version-win32-sdl.zip"
+        "url": "https://github.com/atari800/atari800/releases/download/ATARI800_$underscoreVersion/atari800-$version-win32-sdl.zip",
+        "extract_dir": "atari800-$version-win32-sdl"
     }
 }

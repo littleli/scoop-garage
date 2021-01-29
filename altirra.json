@@ -2,7 +2,7 @@
     "version": "3.90",
     "description": "Altirra is the 8-bit Atari emulator focusing on high-quality emulation, sometimes over speed and polish",
     "homepage": "http://www.virtualdub.org/altirra.html",
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
             "url": "http://www.virtualdub.org/downloads/Altirra-3.90.zip",

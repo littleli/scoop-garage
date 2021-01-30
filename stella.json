@@ -8,7 +8,6 @@
         "64bit": {
             "url": "https://github.com/stella-emu/stella/releases/download/6.5.1/Stella-6.5.1-x64.exe",
             "hash": "5893a9b082330899262948f71c952d6ea0c08962e69b8a1871b0f4fdb6f0898c",
-            "innosetup": true,
             "shortcuts": [
                 [
                     "Stella.exe",
@@ -19,7 +18,6 @@
         "32bit": {
             "url": "https://github.com/stella-emu/stella/releases/download/6.5.1/Stella-6.5.1-win32.exe",
             "hash": "4773acb55d66c8135e753ff235cea051b06bd9daee587ebcfa006d30ed0cac20",
-            "innosetup": true,
             "shortcuts": [
                 [
                     "Stella.exe",
@@ -28,6 +26,7 @@
             ]
         }
     },
+    "innosetup": true,
     "checkver": {
         "github": "https://github.com/stella-emu/stella"
     },

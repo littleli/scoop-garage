@@ -1,0 +1,15 @@
+{
+    "version": "0.7.4",
+    "description": "Autonomous installer for the Nim programming language from official downloads and sources, enabling you to easily switch between stable and development compilers",
+    "homepage": "https://github.com/dom96/choosenim",
+    "license": "BSD-3-Clause",
+    "url": "https://github.com/dom96/choosenim/releases/download/v0.7.4/choosenim-0.7.4_windows_amd64.zip",
+    "hash": "5d60b8b8b7707cfcd95cf4b6b2ba6f77e9ca8e4c0eaaa43249b7aa2e53e8be90",
+    "bin": [
+        ["runme.bat", "choosenim"]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/dom96/choosenim/releases/download/v$version/choosenim-$version_windows_amd64.zip"
+    }
+}

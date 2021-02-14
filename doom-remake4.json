@@ -10,5 +10,15 @@
         "Doom_Remake_4_Lights_ON.exe",
         "Doom_Remake_4.exe",
         "gzdoom.exe"
+    ],
+    "shortcuts": [
+        [
+            "Doom_Remake_4_Lights_ON.exe",
+            "Doom Remake 4 (Lights On)"
+        ],
+        [
+            "Doom_Remake_4.exe",
+            "Doom Remake 4"
+        ]
     ]
 }

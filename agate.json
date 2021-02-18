@@ -5,15 +5,15 @@
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mbrubeck/agate/releases/download/v2.5.2/agate.x86_64-pc-windows-msvc.exe.gz",
-            "hash": "9de386c6850d8b89d0e39389c6decb7b7a1220c4d82c305c64f952043907b5b1"
+            "url": "https://github.com/mbrubeck/agate/releases/download/v2.5.2/agate.x86_64-pc-windows-msvc.zip",
+            "hash": "04dc55e84ee710b3c7db9f5b8e2cffc5934b34a8db252b28937b097143ccb6ae"
         }
     },
     "bin": "agate.exe",
     "checkver": "github",
     "autoupdate": {
         "64bit": {
-            "url": "https://github.com/mbrubeck/agate/releases/download/v$version/agate.x86_64-pc-windows-msvc.exe.gz"
+            "url": "https://github.com/mbrubeck/agate/releases/download/v$version/agate.x86_64-pc-windows-msvc.zip"
         }
     }
 }

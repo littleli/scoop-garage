@@ -10,12 +10,14 @@
         "make_lnx.exe",
         [
             "rotate.exe",
-            "handy_rotate.exe"
+            "handy_rotate"
         ]
     ],
     "shortcuts": [
-        "handy.exe",
-        "Handy Lynx Emulator"
+        [
+            "handy.exe",
+            "Handy Lynx Emulator"
+        ]
     ],
     "checkver": {
         "url": "https://sourceforge.net/projects/handy/rss?path=/handy",

@@ -7,7 +7,7 @@
     "hash": "a30c15f485bcc7ada635a5eb1654ff5cf805da8d141a1b64d4e83a26d609b0fa",
     "extract_dir": "SainT",
     "bin": [
-        "SaintT.exe",
+        "SainT.exe",
         "Dir2Msa\\dir2msa.exe"
     ],
     "shortcuts": [

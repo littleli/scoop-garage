@@ -20,7 +20,7 @@
     ],
     "shortcuts": [
         [
-            "PharoLauncher.exe",
+            "Pharo.exe Pharo.image",
             "Launch Pharo"
         ]
     ],

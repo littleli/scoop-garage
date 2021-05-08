@@ -9,7 +9,8 @@
     "persist": [
         "Pharo.image",
         "Pharo.ini",
-        "Pharo.changes"
+        "Pharo.changes",
+        "images"
     ],
     "bin": [
         [

@@ -20,8 +20,9 @@
     ],
     "shortcuts": [
         [
-            "Pharo.exe Pharo.image",
-            "Launch Pharo"
+            "Pharo.exe",
+            "Launch Pharo",
+            "Pharo.image"
         ]
     ],
     "checkver": {

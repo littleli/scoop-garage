@@ -14,13 +14,13 @@
     "bin": [
         [
             "Pharo.exe",
-            "PharoLauncher",
+            "PharoLauncher.exe",
             "Pharo.image"
         ]
     ],
     "shortcuts": [
         [
-            "PharoLauncher",
+            "PharoLauncher.exe",
             "Launch Pharo"
         ]
     ],

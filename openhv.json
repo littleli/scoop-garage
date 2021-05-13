@@ -1,6 +1,6 @@
 {
     "version": "20210321",
-    "description": "An Open Source 90s Pixelart Science-Fiction Real Time Strategy game with Multiplayer support, competent skirmish AI and an integrated map editor.",
+    "description": "Open Hard Vacuum. 90s Pixelart Science-Fiction Real-time strategy game with multiplayer support, competent skirmish AI and an integrated map editor",
     "homepage": "https://openhv.itch.io/openhv",
     "license": "GPL-3.0,...",
     "persist": "mods",
@@ -33,9 +33,5 @@
                 "url": "https://github.com/OpenHV/OpenHV/releases/download/$version/OpenHV-$version-x86-winportable.zip"
             }
         }
-    },
-    "notes": [
-        "Hard Vacuum",
-        "Never heard about? Check https://lostgarden.home.blog/2005/03/27/game-post-mortem-hard-vacuum/"
-    ]
+    }
 }

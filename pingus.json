@@ -12,8 +12,8 @@
         "script": "Start-Process -FilePath \"$dir\\Uninstall.exe\" -ArgumentList /S -Wait"
     },
     "post_install": [
-        "Remove-Item \"$dir\\TODO\", \"$dir\\VERSION\", \"$dir\\doc\", \"$dir\\external\", \"$dir\\extra\", \"$dir\\src\", \"$dir\\test\", \"$dir\\tools\", \"$dir\\windows-installer\" -Force -Recurse",
-        "Remove-Item \"$dir\\.gitignore\", \"$dir\\INSTALL.*\", \"$dir\\Makefile\", \"$dir\\NEWS\", \"$dir\\SConscript.*\", \"$dir\\SConstruct.*\", \"$dir\\setup.exe\" -Force -Recurse"
+        "Remove-Item \"$dir\\doc\", \"$dir\\external\", \"$dir\\extra\", \"$dir\\src\", \"$dir\\test\", \"$dir\\tools\", \"$dir\\windows-installer\" -Force -Recurse",
+        "Remove-Item \"$dir\\pingus.sln\", \"$dir\\pingus.vcproj\", \"$dir\\TODO\", \"$dir\\VERSION\", \"$dir\\.gitignore\", \"$dir\\INSTALL.*\", \"$dir\\Makefile\", \"$dir\\NEWS\", \"$dir\\SConscript*\", \"$dir\\SConstruct*\", \"$dir\\setup.exe\" -Force -Recurse"
     ],
     "bin": "pingus.exe",
     "shortcuts": [

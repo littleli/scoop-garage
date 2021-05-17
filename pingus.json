@@ -2,7 +2,7 @@
     "version": "0.7.6",
     "description": "Pingus is a free Lemmingstm-like puzzle game",
     "homepage": "https://pingus.gitlab.io",
-    "license": "GPL",
+    "license": "GPL-3.0-or-later",
     "url": "https://github.com/Pingus/downloads/blob/master/Pingus-0.7.6.exe?raw=true#/setup.exe",
     "hash": "f08e45a96a95f293767e7c2dba98ae3feefd3a1d13e5c6461bcc8a111aa9618d",
     "installer": {
@@ -23,6 +23,6 @@
         "re": "Pingus-([\\d.]+).exe"
     },
     "autoupdate": {
-        "url": "https://github.com/Pingus/downloads/blob/master/Pingus-$version.exe?raw=true"
+        "url": "https://github.com/Pingus/downloads/blob/master/Pingus-$version.exe?raw=true#/setup.exe"
     }
 }

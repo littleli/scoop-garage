@@ -1,7 +1,7 @@
 {
     "version": "0.7.6",
     "description": "Pingus is a free Lemmingstm-like puzzle game",
-    "homepage": "https://pingus.gitlab.io",
+    "homepage": "https://pingus.gitlab.io/",
     "license": "GPL-3.0-or-later",
     "url": "https://github.com/Pingus/downloads/blob/master/Pingus-0.7.6.exe?raw=true#/setup.exe",
     "hash": "f08e45a96a95f293767e7c2dba98ae3feefd3a1d13e5c6461bcc8a111aa9618d",
@@ -11,6 +11,10 @@
     "uninstaller": {
         "script": "Start-Process -FilePath \"$dir\\Uninstall.exe\" -ArgumentList /S -Wait"
     },
+    "post_install": [
+        "Remove-Item \"$dir\\TODO\", \"$dir\\VERSION\", \"$dir\\doc\", \"$dir\\external\", \"$dir\\extra\", \"$dir\\src\", \"$dir\\test\", \"$dir\\tools\", \"$dir\\windows-installer\" -Force -Recurse",
+        "Remove-Item \"$dir\\.gitignore\", \"$dir\\INSTALL.*\", \"$dir\\Makefile\", \"$dir\\NEWS\", \"$dir\\SConscript.*\", \"$dir\\SConstruct.*\", \"$dir\\setup.exe\" -Force -Recurse"
+    ],
     "bin": "pingus.exe",
     "shortcuts": [
         [

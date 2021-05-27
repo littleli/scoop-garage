@@ -5,7 +5,7 @@
     "license": "GPL-2.0-only",
     "url": "https://github.com/aranym/aranym/releases/download/ARANYM_1_1_0/aranym-1.1.0-cygwin-i386-sdl2-setup.exe#/dl.7z",
     "hash": "ac02c8aaa7b4404b8fde6d692fb314781c19f2a2a446f7cecd1c3e5e42d187aa",
-    "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"uninstall-aranym.exe\" -Force -Recurse",
+    "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall-aranym.exe\" -Force -Recurse",
     "bin": [
         "aranym.exe",
         "aranym-jit.exe",

@@ -7,6 +7,12 @@
     "hash": "38bf270b386bf2c45683c7e6d060c18188258d496e82c01c6219fba5d12d98b4",
     "extract_dir": "Dooble",
     "bin": "Dooble.exe",
+    "shortcuts": [
+        [
+            "Dooble Browser",
+            "Dooble.exe"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/textbrowser/dooble"
     },

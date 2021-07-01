@@ -9,8 +9,8 @@
     "bin": "Dooble.exe",
     "shortcuts": [
         [
-            "Dooble Browser",
-            "Dooble.exe"
+            "Dooble.exe",
+            "Dooble Browser"            
         ]
     ],
     "checkver": {

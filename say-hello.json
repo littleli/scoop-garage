@@ -1,0 +1,16 @@
+{
+    "version": "1.0.0",
+    "description": "The way to say hello using babashka",
+    "homepage": "",
+    "license": "BSD-2-Clause",
+    "depends": "scoop-clojure/babashka",
+    "url": "https://gist.githubusercontent.com/littleli/1740630bc81a3380add9ca0ca6d602a7/raw/27b8225c0843d53b12b2dc5c757c1bc55d7af7ca/hello.clj",
+    "hash": "",
+    "bin": [
+        [
+            "bb",
+            "hello",
+            "-f hello.clj"
+        ]
+    ]
+}

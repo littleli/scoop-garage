@@ -4,7 +4,8 @@
     "homepage": "https://github.com/babashka/neil",
     "license": "EPL-1.0",
     "depends": "scoop-clojure/babashka",
-    "url": "https://github.com/babashka/neil/archive/refs/heads/main.zip",
-    "hash": "f083136f0c30b5f7341c3b1f0e630a62e1f100a4b4ab4ae35e3720ffc7fbb273",
+    "url": "https://github.com/babashka/neil/archive/e2f7ce8199f63f985ccdd1612e648379489ec8a5.zip#/dl.zip",
+    "hash": "4cfe4d46108efed0525e73111c0289c1e91ce5c70c228bb0dfde5a3c35cb2246",
+    "extract_dir": "neil-e2f7ce8199f63f985ccdd1612e648379489ec8a5",
     "bin": "neil.bat"    
 }

@@ -1,0 +1,10 @@
+{
+    "version": "0.1",
+    "description": "A CLI to add common aliases and features to deps.edn-based projects",
+    "homepage": "https://github.com/babashka/neil",
+    "license": "EPL-1.0",
+    "depends": "scoop-clojure/babashka",
+    "url": "https://github.com/babashka/neil/archive/refs/heads/main.zip",
+    "hash": "f083136f0c30b5f7341c3b1f0e630a62e1f100a4b4ab4ae35e3720ffc7fbb273",
+    "bin": "neil.bat"    
+}

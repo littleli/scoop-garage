@@ -6,8 +6,8 @@
     "depends": "scoop-clojure/babashka",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/babashka/neil/releases/tag/v0.0.9",
-            "hash": "4cfe4d46108efed0525e73111c0289c1e91ce5c70c228bb0dfde5a3c35cb2246",
+            "url": "https://github.com/babashka/neil/archive/refs/tags/v0.0.9.zip",
+            "hash": "3e68db0139e9d290a8803cfd41d9da01ca8598e8d88996d8780127248c752964",
             "extract_dir": "neil-0.0.9"
         }
     },    

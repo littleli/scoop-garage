@@ -1,0 +1,23 @@
+{
+    "version": "1.7.2",
+    "description": "Berusky is a free logic game based on an ancient puzzle named Sokoban",
+    "homepage": "https://www.anakreon.cz/berusky1.html",
+    "license": "GPL-2.0-only",
+    "url": "http://anakreon.cz/download/berusky-1.7.exe",
+    "hash": "00bea964585d5e0d94a3a29746a90dab9034fd8b460e826d4183eb43a42d14b7",
+    "innosetup": true,
+    "bin": "beruskyw.exe",
+    "shortcuts": [
+        [
+            "beruskyw.exe",
+            "Berušky"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.anakreon.cz/berusky1.html",
+        "regex": "The latest stable version is <b>([\\d.]+)</b>"
+    },
+    "autoupdate": {
+        "url": "http://anakreon.cz/download/berusky-$majorVersion.$minorVersion.exe"
+    }
+}

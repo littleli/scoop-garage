@@ -15,11 +15,6 @@
             "extract_dir": "x86"
         }
     },
-    "bin": [
-        "uvnc_settings.exe",
-        "vncviewer.exe",
-        "winvnc.exe"
-    ],
     "shortcuts": [
         [
             "vncviewer.exe",

@@ -17,10 +17,20 @@
         }
     },
     "bin": [
+        "uvnc_settings.exe",
         "vncviewer.exe",
-        "vnc_settings.exe",
         "winvnc.exe"
     ],
+    "shortcuts": [
+        [
+            "vncviewer.exe",
+            "VNC Viewer"
+        ],
+        [
+            "winvnc.exe",
+            "WinVNC"
+        ]
+    ]
     "checkver": {
         "url": "https://uvnc.com/downloads/ultravnc/",
         "re": "/downloads/ultravnc/([\\d.]+)-ultravnc-([\\d])-([\\d])-([\\d])-([\\d])\\.html",

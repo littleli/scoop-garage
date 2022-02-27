@@ -5,8 +5,8 @@
     "license": "http://openjdk.java.net/legal/gplv2+ce.html",
     "architecture": {
         "64bit": {
-            "url": "https://download.java.net/java/early_access/loom/3/openjdk-19-loom+3-89_windows-x64_bin.zip",
-            "hash": "421550bb06854273f88819788dc85d45942bdce97fe8a1712a4d11d5c637e044"
+            "url": "https://download.java.net/java/early_access/loom/4/openjdk-19-loom+4-115_windows-x64_bin.zip",
+            "hash": "e8116c69dadd519b0c60926924615aa06b79da46ed479e8607f22892f7a40cb5"
         }
     },
     "extract_dir": "jdk-19",

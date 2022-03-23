@@ -6,7 +6,8 @@
     "depends": "scoop-clojure/babashka",
     "architecture": {
         "64bit": {
-            "url": "https://raw.githubusercontent.com/borkdude/passman/main/out/passman"
+            "url": "https://raw.githubusercontent.com/borkdude/passman/main/out/passman",
+            "hash": "58bf4fa5761797e34b73d94c9d068e62a2bd9935479de29c2527b2f957f79963"
         }
     },
     "pre_install": "Set-Content \"$dir\\passman.bat\" \"@bb.exe \"\"%~dp0passman\"\"\"",

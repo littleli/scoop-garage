@@ -1,0 +1,14 @@
+{
+    "version": "0.0.1",
+    "description": "password manager written in babashka",
+    "homepage": "https://github.com/danownsthisspace/passman",
+    "license": "Freeware",
+    "depends": "scoop-clojure/babashka",
+    "architecture": {
+        "64bit": {
+            "url": "https://raw.githubusercontent.com/borkdude/passman/main/out/passman"
+        }
+    },
+    "pre_install": "Set-Content \"$dir\\passman.bat\" \"@bb.exe \"\"%~dp0passman\"\"\"",
+    "bin": "passman.bat"
+}

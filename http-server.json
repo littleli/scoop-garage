@@ -1,0 +1,31 @@
+{
+    "version": "0.1.14",
+    "description": "Babashka to serve static assets",
+    "homepage": "https://github.com/babashka/http-server",
+    "license": "MIT",
+    "depends": "scoop-clojure/babashka",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/babashka/http-server/archive/refs/tags/v0.1.4.zip",
+            "hash": "7a5fe4c4f250589319326782cf05ae688aca43a7f52cfbeb4f6c5074d336f059",
+            "extract_dir": "http-server-0.1.14"
+        }
+    },
+    "pre_install": [
+        "Set-Content \"$dir\\http-server\" '(require \\'[babashka.deps :as deps])', '(deps/add-deps \\'{:deps {org.babashka/http-server {:mvn/version "$version"}}})', '(require \\'[babashka.http-server :as http-server])', '(apply http-server/-main *command-line-args*)'"
+        "Set-Content \"$dir\\http-server.bat\" \"@bb.exe \"\"%~dp0http-server\"\" %*\""
+    ],
+    "bin": "http-server.bat",
+    "checkver": {
+        "url": "https://api.github.com/repos/babashka/http-server/tags",
+        "regex": "\"v([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/babashka/http-server/archive/refs/tags/v$version.zip",
+                "extract_dir": "http-server-$version"
+            }
+        }
+    }
+}

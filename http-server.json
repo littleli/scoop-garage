@@ -12,7 +12,7 @@
         }
     },
     "pre_install": [
-        "Set-Content \"$dir\\http-server\" '(require \'[babashka.deps :as deps])', '(deps/add-deps \'{:deps {org.babashka/http-server {:mvn/version "$version"}}})', '(require \'[babashka.http-server :as http-server])', '(apply http-server/-main *command-line-args*)'",
+        "Set-Content \"$dir\\http-server\" '(require \'[babashka.deps :as deps])', '(deps/add-deps \'{:deps {org.babashka/http-server {:mvn/version "\$version"}}})', '(require \'[babashka.http-server :as http-server])', '(apply http-server/-main *command-line-args*)'",
         "Set-Content \"$dir\\http-server.bat\" \"@bb.exe \"\"%~dp0http-server\"\" %*\""
     ],
     "bin": "http-server.bat",

@@ -1,5 +1,5 @@
 {
-    "version": "0.1.14",
+    "version": "0.1.4",
     "description": "Babashka to serve static assets",
     "homepage": "https://github.com/babashka/http-server",
     "license": "MIT",
@@ -8,7 +8,7 @@
         "64bit": {
             "url": "https://github.com/babashka/http-server/archive/refs/tags/v0.1.4.zip",
             "hash": "7a5fe4c4f250589319326782cf05ae688aca43a7f52cfbeb4f6c5074d336f059",
-            "extract_dir": "http-server-0.1.14"
+            "extract_dir": "http-server-0.1.4"
         }
     },
     "pre_install": [

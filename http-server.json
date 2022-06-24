@@ -6,15 +6,11 @@
     "depends": "scoop-clojure/babashka",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/babashka/http-server/archive/refs/tags/v0.1.4.zip",
-            "hash": "7a5fe4c4f250589319326782cf05ae688aca43a7f52cfbeb4f6c5074d336f059",
-            "extract_dir": "http-server-0.1.4"
+            "url": "https://github.com/babashka/http-server/releases/download/v0.1.4/http-server.jar",
+            "hash": "0bc6a7f263511ce965254f233747581c02c0212110ab38ec56905494db51e7ba"
         }
     },
-    "pre_install": [
-        "Set-Content \"$dir\\http-server\" \"(require '[babashka.http-server :as http-server])\", \"(apply http-server/-main *command-line-args*)\"",
-        "Set-Content \"$dir\\http-server.bat\" \"@bb.exe --config \"\"$dir\"\" \"\"%~dp0http-server\"\" %*\""
-    ],
+    "pre_install": "Set-Content \"$dir\\http-server.bat\" \"@bb.exe \"\"%~dp0http-server.jar\"\" %*\"",
     "bin": "http-server.bat",
     "checkver": {
         "url": "https://api.github.com/repos/babashka/http-server/tags",
@@ -23,8 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/babashka/http-server/archive/refs/tags/v$version.zip",
-                "extract_dir": "http-server-$version"
+                "url": "https://github.com/babashka/http-server/archive/refs/tags/v$version.jar"
             }
         }
     }

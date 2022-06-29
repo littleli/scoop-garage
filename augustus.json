@@ -1,0 +1,17 @@
+{
+    "version": "3.1.0",
+    "description": "An open source re-implementation of Caesar III",
+    "homepage": "https://github.com/Keriew/augustus",
+    "license": "AGPL-3.0",
+    "url": "https://github.com/Keriew/augustus/releases/download/v3.1.0/augustus-3.1.0-windows.zip",
+    "shortcuts": [
+        [
+            "augustus.exe",
+            "Augustus - Caesar III"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Keriew/augustus/releases/download/v3.1.0/augustus-$version-windows.zip"
+    }
+}

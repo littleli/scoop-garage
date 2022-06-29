@@ -9,6 +9,7 @@
             "hash": "ab1523430733a0a34c5ad14a1648a69fbd10221e60a8a4eaa2a4f9dd73e9bb17"
         }
     },
+    "innosetup": "true",
     "shortcuts": [
         [
             "naev-0.9.3-win64.exe",

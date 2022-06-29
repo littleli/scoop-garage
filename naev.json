@@ -5,11 +5,16 @@
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/naev/naev/releases/download/v0.9.3/naev-0.9.3-win64.exe",
-            "hash": "ab1523430733a0a34c5ad14a1648a69fbd10221e60a8a4eaa2a4f9dd73e9bb17"
+            "url": "https://github.com/naev/naev/releases/download/v0.9.3/naev-0.9.3-win64.exe#/dl.7z",
+            "hash": "ab1523430733a0a34c5ad14a1648a69fbd10221e60a8a4eaa2a4f9dd73e9bb17",
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\dl.7z\" \"$dir\"",
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall*\" -Force -Recurse"
+                ]
+            }
         }
     },
-    "innosetup": "true",
     "shortcuts": [
         [
             "naev-0.9.3-win64.exe",
@@ -22,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/naev/naev/releases/download/v$version/naev-$version-win64.exe"
+                "url": "https://github.com/naev/naev/releases/download/v$version/naev-$version-win64.exe#/dl.7z"
             }
         }
     }

@@ -11,8 +11,8 @@
             "extract_dir": "eql-cli-0.0.2"
         }
     },
-    "pre_install": "Set-Content \"$dir\\eql-cli.bat\" \"@bb.exe \"\"%~dp0eql\"\" %*\"",
-    "bin": "eql-cli.bat",
+    "pre_install": "Set-Content \"$dir\\eql.bat\" \"@bb.exe \"\"%~dp0eql\"\" %*\"",
+    "bin": "eql.bat",
     "checkver": {
         "url": "https://api.github.com/repos/lilactown/eql-cli/tags",
         "regex": "\"v([\\d.]+)\""

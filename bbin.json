@@ -11,6 +11,12 @@
             "extract_dir": "bbin-0.0.10"
         }
     },
+    "installer": {
+        "script": "add_first_in_path \"$env:USERPROFILE\\.bbin\" $global"
+    },
+    "uninstaller": {
+        "script": "remove_from_path \"$env:USERPROFILE\\.bbin\" $global"
+    },    
     "pre_install": "Set-Content \"$dir\\bbin.bat\" \"@bb.exe \"\"%~dp0bbin\"\" %*\"",
     "bin": "bbin.bat",
     "checkver": {

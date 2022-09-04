@@ -17,7 +17,10 @@
     "uninstaller": {
         "script": "remove_from_path \"$env:USERPROFILE\\.bbin\" $global"
     },    
-    "pre_install": "Set-Content \"$dir\\bbin.bat\" \"@bb.exe \"\"%~dp0bbin\"\" %*\"",
+    "pre_install": [
+        "Remove-Item \"$dir\\*\" -Recurse -Exclude 'bbin'",
+        "Set-Content \"$dir\\bbin.bat\" \"@bb.exe \"\"%~dp0bbin\"\" %*\""
+    ],
     "bin": "bbin.bat",
     "checkver": {
         "url": "https://api.github.com/repos/babashka/bbin/tags",

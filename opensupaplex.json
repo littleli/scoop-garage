@@ -5,7 +5,7 @@
     "license": "Freeware",
     "url": "https://github.com/sergiou87/open-supaplex/releases/download/v7.1.2/OpenSupaplex-windows-x86_64-v7.1.2.zip",
     "hash": "7824632735cf608d98ca502aaabb453b0766510f4ccdb09cd5f9e80c192cde7c",
-    "extract_dir": "OpenSupaplex-windows-x86_64-v7.1.2",
+    "extract_dir": "OpenSupaplex",
     "shortcuts": [
         [
             "OpenSupaplex.exe",
@@ -17,6 +17,6 @@
     },
     "autoupdate": {
         "url": "https://github.com/sergiou87/open-supaplex/releases/download/v$version/OpenSupaplex-windows-x86_64-v$version.zip",
-        "extract_dir": "OpenSupaplex-windows-x86_64-v$version"
+        "extract_dir": "OpenSupaplex"
     }
 }

@@ -1,39 +1,21 @@
 {
-    "version": "1.10.3.1040",
-    "description": "Clojure is a modern, dynamic, and functional dialect of the Lisp programming language on the Java platform",
+    "version": "1.11.1.1165",
+    "description": "Clojure installation from MSI package",
     "homepage": "https://clojure.org",
     "license": "EPL-1.0",
     "suggest": {
         "JDK": [
-            "java/adopt8-hotspot",
-            "java/adoptopenjdk-lts-hotspot",
-            "java/oraclejdk",
-            "java/openjdk"
+            "java/openjdk",
+            "java/temurin-jdk",
+            "java/oraclejdk"
         ]
     },
-    "url": "https://download.clojure.org/install/clojure-tools-1.10.3.1040.zip",
-    "hash": "abc397a8108ff1a2be846280fce6b940955544e3cafc3e5cd53f0478c20c8011",
-    "extract_dir": "ClojureTools",
-    "psmodule": {
-        "name": "ClojureTools"
-    },
-    "bin": [
-        [
-            "powershell.exe",
-            "clojure",
-            "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
-        ],
-        [
-            "powershell.exe",
-            "clj",
-            "-NoProfile -ExecutionPolicy Bypass -Command Invoke-Clojure"
-        ]
-    ],
+    "url": "https://github.com/casselc/clj-msi/releases/download/clojure-1.11.1.1165-with-ui/clojure-1.11.1.1165.msi",
+    "hash": "",
     "checkver": {
-        "url": "https://clojure.org/releases/tools",
-        "regex": "(\\d+\\.\\d+\\.\\d+\\.\\d+) \\("
+        "github": "https://github.com/casselc/clj-msi"
     },
     "autoupdate": {
-        "url": "https://download.clojure.org/install/clojure-tools-$version.zip"
+        "url": "https://github.com/casselc/clj-msi/releases/download/clojure-$version-with-ui/clojure-$version.msi"
     }
 }

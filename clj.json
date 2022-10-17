@@ -11,7 +11,7 @@
         ]
     },
     "url": "https://github.com/casselc/clj-msi/releases/download/clojure-1.11.1.1165-with-ui/clojure-1.11.1.1165.msi",
-    "hash": "",
+    "hash": "a6ef23406b05d0a4cef1d80f6ac0a85e54e068b2bb0c9b0e3943964926a77fea",
     "checkver": {
         "github": "https://github.com/casselc/clj-msi"
     },

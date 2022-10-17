@@ -12,6 +12,18 @@
     },
     "url": "https://github.com/casselc/clj-msi/releases/download/clojure-1.11.1.1165-with-ui/clojure-1.11.1.1165.msi",
     "hash": "a6ef23406b05d0a4cef1d80f6ac0a85e54e068b2bb0c9b0e3943964926a77fea",
+    "pre_install": [
+        "Move-Item \"$dir\\launcher\\$version\\*.exe\" \"$dir\\\"",
+        "Move-Item \"$dir\\runtime\\$version\\*\" \"$dir\\runtime\\\"",
+        "Remove-Item \"$dir\\launcher\\$version\", \"$dir\\runtime\\$version\" -Force -Recurse"
+    ],
+    "env_set": {
+        "DEPS_CLJ_TOOLS_DIR": "$dir\\runtime\\"
+    },
+    "bin": [
+        "clj.exe",
+        "clojure.exe"
+    ],
     "checkver": {
         "github": "https://github.com/casselc/clj-msi"
     },

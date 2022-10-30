@@ -1,5 +1,5 @@
 {
-    "version": "1.11.1.1165",
+    "version": "1.11.1.1182",
     "description": "Clojure installation from MSI package",
     "homepage": "https://clojure.org",
     "license": "EPL-1.0",
@@ -10,8 +10,8 @@
             "java/oraclejdk"
         ]
     },
-    "url": "https://github.com/casselc/clj-msi/releases/download/clojure-1.11.1.1165-with-ui/clojure-1.11.1.1165.msi",
-    "hash": "a6ef23406b05d0a4cef1d80f6ac0a85e54e068b2bb0c9b0e3943964926a77fea",
+    "url": "https://github.com/casselc/clj-msi/releases/download/1.11.1.1182/clojure-1.11.1.1182.msi",
+    "hash": "76f5da5bb1c6b16b54a1ce26d85f5ca40cfccb33cacc52515aa63bc53f13cfcc",
     "pre_install": [
         "Move-Item \"$dir\\PFiles\\clojure\\launcher\\$version\\*.exe\" \"$dir\\\"",
         "New-Item \"$dir\\runtime\\\" -ItemType Directory -Force | Out-Null",
@@ -29,6 +29,6 @@
         "github": "https://github.com/casselc/clj-msi"
     },
     "autoupdate": {
-        "url": "https://github.com/casselc/clj-msi/releases/download/clojure-$version-with-ui/clojure-$version.msi"
+        "url": "https://github.com/casselc/clj-msi/releases/download/$version/clojure-$version.msi"
     }
 }

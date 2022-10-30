@@ -12,14 +12,8 @@
     },
     "url": "https://github.com/casselc/clj-msi/releases/download/1.11.1.1182/clojure-1.11.1.1182.msi",
     "hash": "76f5da5bb1c6b16b54a1ce26d85f5ca40cfccb33cacc52515aa63bc53f13cfcc",
-    "pre_install": [
-        "Move-Item \"$dir\\PFiles\\clojure\\launcher\\$version\\*.exe\" \"$dir\\\"",
-        "New-Item \"$dir\\runtime\\\" -ItemType Directory -Force | Out-Null",
-        "Move-Item \"$dir\\PFiles\\clojure\\runtime\\$version\\*\" \"$dir\\runtime\\\"",
-        "Remove-Item \"$dir\\PFiles\" -Force -Recurse"
-    ],
     "env_set": {
-        "DEPS_CLJ_TOOLS_DIR": "$dir\\runtime\\"
+        "DEPS_CLJ_TOOLS_DIR": "$dir"
     },
     "bin": [
         "clj.exe",

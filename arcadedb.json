@@ -22,7 +22,7 @@
         "log"
     ],
     "env_set": {
-        "ARCADEDB_HOME": "\"$dir\""
+        "ARCADEDB_HOME": "$dir"
     },
     "bin": [
         [

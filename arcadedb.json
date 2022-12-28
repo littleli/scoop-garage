@@ -18,7 +18,7 @@
     "extract_dir": "arcadedb-22.12.1",
     "persist": [
         "config",
-        "database"
+        "databases"
     ],
     "env_set": {
         "ARCADEDB_HOME": "$dir"

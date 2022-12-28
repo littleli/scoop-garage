@@ -23,6 +23,20 @@
     "env_set": {
         "ARCADEDB_HOME": "$dir"
     },
+    "bin": [
+        [
+            "bin\\console.bat",
+            "arcadedb-console"
+        ],
+        [
+            "bin\\server.bat",
+            "arcadedb-server"
+        ],
+        [
+            "bin\\stresstester.bat",
+            "arcadedb-stresstester"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/ArcadeData/arcadedb"
     },
